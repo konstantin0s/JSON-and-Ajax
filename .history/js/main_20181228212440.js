@@ -13,7 +13,7 @@ btn.addEventListener('click', function() {
 function renderHTML(data) {
   var htmlString = "";
   for (var i = 0; i < data.length; i++) {
-    htmlString += "<p>" + data[i].name + " is a " + data[i].species + ".</p>";
+    htmlString += "<p>" + data[i] + "</p>";
   }
 
     animalContainer.insertAdjacentHTML('beforeend', htmlString);

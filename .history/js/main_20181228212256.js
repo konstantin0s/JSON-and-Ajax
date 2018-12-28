@@ -11,10 +11,6 @@ btn.addEventListener('click', function() {
 });
 
 function renderHTML(data) {
-  var htmlString = "";
-  for (var i = 0; i < data.length; i++) {
-    htmlString += "<p>" + data[i].name + " is a " + data[i].species + ".</p>";
-  }
-
+  var htmlString = "This is a test"
     animalContainer.insertAdjacentHTML('beforeend', htmlString);
 }
