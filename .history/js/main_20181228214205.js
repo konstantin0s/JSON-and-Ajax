@@ -25,18 +25,7 @@ function renderHTML(data) {
    } else {
     htmlString += " and " + data[i].foods.likes[ii];
    }
-  
   }
-    htmlString += " and dislikes ";
-    for (var ii =0; ii < data[i].foods.dislikes.length; ii++) {
-      if (ii == 0) {
-       htmlString += data[i].foods.dislikes[ii];
-      } else {
-       htmlString += " and " + data[i].foods.dislikes[ii];
-      }
-     
-     }
-
   htmlString += ".</p>";
   }
 
