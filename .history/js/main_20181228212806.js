@@ -9,7 +9,6 @@ btn.addEventListener('click', function() {
     renderHTML(ourData);
   };
   ourRequest.send();
-  pageCounter++;
 });
 
 function renderHTML(data) {
